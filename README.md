@@ -2,7 +2,6 @@
 
 > An ember-cli-deploy plugin that implements npm version to update your deployment version.
 
-[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-json-config.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 
 This plugin uses the environment variable "version" to easily change a project's version number.  This plugin allows user to incorporate all the functionalities of npm version with ember-cli-deploy. For more information on npm version please refer to the [NPM Documentation][4].
 
@@ -11,6 +10,27 @@ This plugin uses the environment variable "version" to easily change a project's
 A plugin is an addon that can be executed as a part of the ember-cli-deploy pipeline. A plugin will implement one or more of the ember-cli-deploy's pipeline hooks.
 
 For more information on what plugins are and how they work, please refer to the [Plugin Documentation][1].
+
+## Quick Start
+
+- Install this plugin
+
+```bash
+$ ember install ember-cli-deploy-version
+```
+
+- Run the pipeline
+
+```bash
+$ verion=1.0.0 commitMessage="release version %s for reasons" ember deploy
+```
+
+## Installation
+Run the following command in your terminal:
+
+```bash
+ember install ember-cli-deploy-version
+```
 
 ## ember-cli-deploy Hooks Implemented
 

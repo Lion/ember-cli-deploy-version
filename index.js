@@ -51,8 +51,7 @@ module.exports = {
         }
         //end of if(versionNUm)
         else{
-          this.log("ERROR: Please set version variable. Example: $ version= 1.0.0 ember deploy ",{ color: 'red' })
-          throw error;
+          throw "ERROR: Please set version variable. Example: $ version= 1.0.0 ember deploy ";
         }
       },
 
