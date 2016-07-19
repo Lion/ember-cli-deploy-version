@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-deploy-version",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "a deploy plugin for changing and committing project versions",
   "directories": {
     "doc": "doc",
     "test": "tests"
